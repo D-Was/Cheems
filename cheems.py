@@ -1,11 +1,11 @@
 def Cheems(strng):
-    new_liat=[]
+    new_list=[]
     sam=strng.split()
     for i in sam:
         val=len(i)//2
-        new_liat.append((i[:val] +'m'+i[val:]))
+        new_list.append((i[:val] +'m'+i[val:]))
 
-    new_str=' '.join(new_liat)
+    new_str=' '.join(new_list)
     print(new_str)
 
 sam=input('Enter a word: ')
