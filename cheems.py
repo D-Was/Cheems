@@ -6,7 +6,7 @@ def Cheems(strng):
         new_list.append((i[:val] +'m'+i[val:]))
 
     new_str=' '.join(new_list)
-    print(new_str)
+    print('Cheems says: '+new_str)
 
 sam=input('Enter a word: ')
 Cheems(sam)
